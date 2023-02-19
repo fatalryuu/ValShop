@@ -19,6 +19,7 @@ function App() {
                 <div className='app-wrapper-content'>
                     <Routes>
                         <Route path='/' element={<TitleWrapper title="Home"><Home/></TitleWrapper>}/>
+                        <Route path='/ValShop' element={<TitleWrapper title="Home"><Home/></TitleWrapper>}/>
                         <Route path='/buy' element={<TitleWrapper title="Credits"><Credits/></TitleWrapper>}/>
                         <Route path='/catalog' element={<TitleWrapper title="Catalog"><Catalog/></TitleWrapper>}/>
                         <Route path='/reviews' element={<TitleWrapper title="Reviews"><Reviews/></TitleWrapper>}/>
