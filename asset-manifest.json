@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb9460fe.css",
-    "main.js": "/static/js/main.9f1a1d37.js",
-    "static/media/v_reaver.png": "/static/media/v_reaver.ebd0c317182fae8255d1.png",
-    "static/media/rgx_11z_pro_firefly.png": "/static/media/rgx_11z_pro_firefly.e00d42a30fac803211e1.png",
-    "static/media/v_prime.png": "/static/media/v_prime.059bee74c40a56642f61.png",
-    "static/media/p_spectrum.png": "/static/media/p_spectrum.204f2219f58c21c78157.png",
-    "static/media/sh_ion.png": "/static/media/sh_ion.4397635c15aebc911116.png",
-    "static/media/op_elderflame.png": "/static/media/op_elderflame.1115b2f8d4c7d5a99529.png",
-    "static/media/p_singularity.png": "/static/media/p_singularity.1e5bceff325cccb6b52d.png",
-    "static/media/logo.webp": "/static/media/logo.2fa30e996fc0b6066ef8.webp",
-    "index.html": "/index.html",
-    "main.fb9460fe.css.map": "/static/css/main.fb9460fe.css.map",
-    "main.9f1a1d37.js.map": "/static/js/main.9f1a1d37.js.map"
+    "main.css": "/ValShop/static/css/main.fb9460fe.css",
+    "main.js": "/ValShop/static/js/main.896ea6d4.js",
+    "static/media/v_reaver.png": "/ValShop/static/media/v_reaver.ebd0c317182fae8255d1.png",
+    "static/media/rgx_11z_pro_firefly.png": "/ValShop/static/media/rgx_11z_pro_firefly.e00d42a30fac803211e1.png",
+    "static/media/v_prime.png": "/ValShop/static/media/v_prime.059bee74c40a56642f61.png",
+    "static/media/p_spectrum.png": "/ValShop/static/media/p_spectrum.204f2219f58c21c78157.png",
+    "static/media/sh_ion.png": "/ValShop/static/media/sh_ion.4397635c15aebc911116.png",
+    "static/media/op_elderflame.png": "/ValShop/static/media/op_elderflame.1115b2f8d4c7d5a99529.png",
+    "static/media/p_singularity.png": "/ValShop/static/media/p_singularity.1e5bceff325cccb6b52d.png",
+    "static/media/logo.webp": "/ValShop/static/media/logo.2fa30e996fc0b6066ef8.webp",
+    "index.html": "/ValShop/index.html",
+    "main.fb9460fe.css.map": "/ValShop/static/css/main.fb9460fe.css.map",
+    "main.896ea6d4.js.map": "/ValShop/static/js/main.896ea6d4.js.map"
   },
   "entrypoints": [
     "static/css/main.fb9460fe.css",
-    "static/js/main.9f1a1d37.js"
+    "static/js/main.896ea6d4.js"
   ]
 }
