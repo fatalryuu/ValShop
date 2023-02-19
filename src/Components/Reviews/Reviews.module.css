@@ -31,6 +31,11 @@
     font-family: sans-serif;
 }
 
+.stars_wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .name {
 
 }
@@ -43,7 +48,8 @@
 }
 
 .stars {
-
+    margin-left: 5px;
+    margin-top: 3px;
 }
 
 .send {

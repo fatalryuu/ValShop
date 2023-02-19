@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import s from "./Reviews.module.css";
 import Review from "./Review/Review";
+import StarIcon from '@mui/icons-material/Star';
 
 const Reviews = () => {
     const [reviews, setReviews] = useState([<Review name="Nikita" text="Great" stars={5} key={Math.random() * 1000}/>]);
@@ -25,9 +26,11 @@ const Reviews = () => {
                 <textarea placeholder="Review..." className={s.text} value={textState}
                        onChange={(e) => setText(e.target.value)} maxLength={90} minLength={8}/>
                 <br/>
-                <input type="number" step={0.5} placeholder="Rate..." className={s.stars} value={starsState}
-                       onChange={(e) => setStars(+e.target.value)} max={5} min={0}/>
-                <br/>
+                <div className={s.stars_wrapper}>
+                    <StarIcon/>
+                    <input type="number" step={0.5} placeholder="Rate..." className={s.stars} value={starsState}
+                           onChange={(e) => setStars(+e.target.value)} max={5} min={0}/>
+                </div>
                 <button type="button" className={s.send} onClick={handleSubmit}>Send</button>
                 {reviews.map(r => r)}
             </form>
