@@ -1,0 +1,40 @@
+.wrapper {
+    color: white;
+}
+
+.wrapper h2 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.wrapper h5 {
+    font-weight: 400;
+    color: #adadad;
+    margin: 0 0 30px 0;
+}
+
+.content {
+
+}
+
+.shop_elements {
+    display: flex;
+    margin-left: 30px;
+    /*width: 1500px;*/
+}
+
+.converter {
+    margin-left: 30px;
+}
+
+.converter img {
+    background-color: black;
+    width: 120px;
+    border-radius: 60px;
+}
+
+.custom {
+    margin: 20px 0 10px 0;
+    font-size: 22px;
+    font-weight: 600;
+}

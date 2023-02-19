@@ -1,0 +1,25 @@
+.wrapper {
+    width: 800px;
+    background-color: rgb(20, 21, 24);
+    border-radius: 15px;
+    padding: 10px 0 10px 20px;
+    margin-top: 20px;
+}
+
+.upper {
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 22px;
+}
+
+.stars {
+    float: right;
+    margin-right: 10px;
+}
+
+.text {
+    font-size: 18px;
+    padding-bottom: 10px;
+}

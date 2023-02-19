@@ -1,0 +1,81 @@
+.element {
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgb(20, 21, 24);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    margin-right: 60px;
+}
+
+.element:last-child {
+    margin-right: 0;
+}
+
+.element img {
+    margin-top: 15px;
+    background-color: black;
+    width: 120px;
+    border-radius: 60px;
+}
+
+.amount {
+    margin: 5px 0 5px 0;
+    font-size: 24px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.bonus {
+    color: #9d9d9d;
+}
+
+.purchase {
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+    margin: 20px 0 15px 0;
+}
+
+.purchase:hover{
+    color: #ffffff;
+    background: rgb(20, 21, 24);
+    box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
+}
+
+.slider {
+    margin: 10px 10px 0 0;
+}
+
+input[type='range'] {
+    overflow: hidden;
+    width: 100px;
+    -webkit-appearance: none;
+    background-color: #ffffff;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #000000;
+    margin-top: -1px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    /*cursor: ew-resize;*/
+    background: #000000;
+    box-shadow: -80px 0 0 80px #5e5e5e;
+}

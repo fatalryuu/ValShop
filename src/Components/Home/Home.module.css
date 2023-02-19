@@ -1,0 +1,36 @@
+.wrapper {
+    color: white;
+}
+
+.wrapper h2 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.wrapper h5 {
+    font-weight: 400;
+    color: #adadad;
+    margin: 0 0 30px 0;
+}
+
+.offer_string {
+    font-weight: 600;
+}
+
+.offer {
+    margin-top: 0;
+}
+
+.why_string {
+    font-weight: 600;
+}
+
+.why {
+    margin: 0;
+}
+
+.wrapper a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}

@@ -1,0 +1,57 @@
+.skin {
+    width: 350px;
+    background-color: rgb(20, 21, 24);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    margin: 0 50px 20px 0;
+}
+
+.skin:nth-child(4n + 4) {
+    margin-right: 0;
+}
+
+.name {
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.img_wrapper {
+    height: 130px;
+}
+
+.skin img {
+    width: 330px;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.down {
+    display: flex;
+    margin-left: 150px;
+    height: 60px;
+}
+
+.buy {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+    margin: 20px 0 0 70px;
+    height: 30px;
+}
+
+.buy:hover{
+    color: #ffffff;
+    background: rgb(20, 21, 24);
+    box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
+}
