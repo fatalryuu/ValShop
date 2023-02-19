@@ -2,6 +2,18 @@
     color: white;
 }
 
+@media (min-width: 1700px) {
+    .wrapper {
+        height: 922px;
+    }
+}
+
+@media (min-width: 1617px) and (max-width: 1699px) {
+    .wrapper {
+        height: 100%;
+    }
+}
+
 .wrapper h2 {
     margin: 0;
     font-weight: 600;
@@ -20,7 +32,8 @@
 .shop_elements {
     display: flex;
     margin-left: 30px;
-    /*width: 1500px;*/
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .converter {

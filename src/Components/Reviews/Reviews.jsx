@@ -18,7 +18,7 @@ const Reviews = () => {
         <div className={s.wrapper}>
             <h2>Reviews</h2>
             <h5>Honest reviews by our clients</h5>
-            <form>
+            <form className={reviews.length > 5 ? s.long_form : s.short_form}>
                 <input type="text" placeholder="Your name..." className={s.name} value={nameState}
                        onChange={(e) => setName(e.target.value)} maxLength={8} minLength={2}/>
                 <br/>

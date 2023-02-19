@@ -2,6 +2,18 @@
     color: white;
 }
 
+@media (min-width: 1498px) {
+    .wrapper {
+        height: 922px;
+    }
+}
+
+@media (min-width: 1125px) and (max-width: 1510px) {
+    .wrapper {
+        height: 100%;
+    }
+}
+
 .wrapper h2 {
     margin: 0;
     font-weight: 600;

@@ -13,6 +13,14 @@
     margin: 0 0 30px 0;
 }
 
+.short_form {
+    height: 830px;
+}
+
+.long_form {
+    height: 100%;
+}
+
 .wrapper input, textarea {
     outline: none;
     border: 1px solid #5e5e5e;
@@ -20,6 +28,7 @@
     background-color: #3b3b3b;
     padding: 5px;
     color: white;
+    font-family: sans-serif;
 }
 
 .name {
@@ -50,7 +59,7 @@
     font-size: 16px;
     overflow: hidden;
     transition: 0.2s;
-    margin: 20px 0 0 0;
+    margin: 20px 0 20px 0;
     height: 30px;
 }
 

@@ -7,8 +7,22 @@
     margin: 0 50px 20px 0;
 }
 
-.skin:nth-child(4n + 4) {
-    margin-right: 0;
+@media (min-width: 1700px) {
+    .skin:nth-child(4n + 4) {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1517px) and (max-width: 1699px) {
+    .skin:nth-child(3n + 3) {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1125px) and (max-width: 1510px) {
+    .skin:nth-child(2n + 2) {
+        margin-right: 0;
+    }
 }
 
 .name {
