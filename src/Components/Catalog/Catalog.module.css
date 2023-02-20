@@ -20,9 +20,9 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 529px) {
     .shop_elements {
-        margin-left: 10px;
+        margin-left: 15px;
     }
 }
 
