@@ -6,11 +6,23 @@
     .wrapper {
         height: 922px;
     }
+    .shop_elements {
+        margin-left: 30px;
+    }
+    .converter {
+        margin-left: 30px;
+    }
 }
 
 @media (min-width: 1617px) and (max-width: 1699px) {
     .wrapper {
         height: 100%;
+    }
+    .shop_elements {
+        margin-left: 30px;
+    }
+    .converter {
+        margin-left: 30px;
     }
 }
 
@@ -31,13 +43,13 @@
 
 .shop_elements {
     display: flex;
-    margin-left: 30px;
+    margin-left: 10px;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 .converter {
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .converter img {

@@ -6,11 +6,23 @@
     .wrapper {
         height: 922px;
     }
+    .shop_elements {
+        margin-left: 30px;
+    }
 }
 
 @media (min-width: 1125px) and (max-width: 1510px) {
     .wrapper {
         height: 100%;
+    }
+    .shop_elements {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .shop_elements {
+        margin-left: 10px;
     }
 }
 
@@ -27,7 +39,6 @@
 
 .shop_elements {
     display: flex;
-    margin-left: 30px;
     flex-wrap: wrap;
     flex-direction: row;
 }

@@ -10,3 +10,9 @@
     margin: 20px 0 10px 0;
     width: 90px;
 }
+
+@media screen and (max-width: 900px) {
+    .logo img {
+        width: 45px;
+    }
+}

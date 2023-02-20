@@ -69,3 +69,29 @@
     background: rgb(20, 21, 24);
     box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
 }
+
+@media (min-width: 0) and (max-width: 400px) {
+    .skin {
+        width: 200px;
+        margin-right: 0;
+    }
+    .name {
+        font-size: 16px;
+    }
+    .img_wrapper {
+        height: 75px;
+    }
+    .skin img {
+        width: 190px;
+    }
+    .down {
+        margin-left: 80px;
+    }
+    .price {
+        font-size: 16px;
+    }
+    .buy {
+        margin: 30px 0 0 20px;
+        font-size: 14px;
+    }
+}

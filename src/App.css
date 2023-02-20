@@ -2,6 +2,7 @@
     background-color: rgb(20, 21, 24);
     display: flex;
     height: 100%;
+    width: 100%;
 }
 
 .left-side {
@@ -14,5 +15,5 @@
     margin-top: 12px;
     border-radius: 35px 0 0 0;
     background-color: #3b3b3b;
-    width: 100vw;
+    width: 100%;
 }

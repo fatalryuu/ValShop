@@ -26,6 +26,13 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+    .element {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
 .element img {
     margin-top: 15px;
     background-color: black;

@@ -4,12 +4,12 @@ import ShopElement from "./ShopElement/ShopElement";
 
 const Credits = () => {
     const shopElements = [
-        <ShopElement amount={650} price={4.99} bonus={0}/>,
-        <ShopElement amount={1400} price={9.99} bonus={100}/>,
-        <ShopElement amount={2900} price={19.99} bonus={300}/>,
-        <ShopElement amount={5250} price={34.99} bonus={700}/>,
-        <ShopElement amount={7750} price={49.99} bonus={1250}/>,
-        <ShopElement amount={16000} price={99.99} bonus={3000}/>,
+        <ShopElement amount={650} price={4.99} bonus={0} key={Math.random() * 10000}/>,
+        <ShopElement amount={1400} price={9.99} bonus={100} key={Math.random() * 10000}/>,
+        <ShopElement amount={2900} price={19.99} bonus={300} key={Math.random() * 10000}/>,
+        <ShopElement amount={5250} price={34.99} bonus={700} key={Math.random() * 10000}/>,
+        <ShopElement amount={7750} price={49.99} bonus={1250} key={Math.random() * 10000}/>,
+        <ShopElement amount={16000} price={99.99} bonus={3000} key={Math.random() * 10000}/>,
     ];
     return (
         <div className={s.wrapper}>

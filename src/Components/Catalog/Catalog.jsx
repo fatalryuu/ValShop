@@ -11,13 +11,13 @@ import op_elderflame from '../../img/skins/op_elderflame.png';
 
 const Catalog = () => {
     const shopElements = [
-        <SkinElement price={11.99} name="Reaver Vandal" imgURL={v_reaver}/>,
-        <SkinElement price={15.99} name="Spectrum Phantom" imgURL={p_spectrum}/>,
-        <SkinElement price={15.99} name="Singularity Phantom" imgURL={p_singularity}/>,
-        <SkinElement price={29.99} name="RGX 11Z Pro Firefly" imgURL={rgx_11z_pro_firefly}/>,
-        <SkinElement price={11.99} name="Ion Sheriff" imgURL={sh_ion}/>,
-        <SkinElement price={11.99} name="Prime Vandal" imgURL={v_prime}/>,
-        <SkinElement price={15.99} name="Elderflame Operator" imgURL={op_elderflame}/>,
+        <SkinElement price={11.99} name="Reaver Vandal" imgURL={v_reaver} key={Math.random() * 10000}/>,
+        <SkinElement price={15.99} name="Spectrum Phantom" imgURL={p_spectrum} key={Math.random() * 10000}/>,
+        <SkinElement price={15.99} name="Singularity Phantom" imgURL={p_singularity} key={Math.random() * 10000}/>,
+        <SkinElement price={29.99} name="RGX 11Z Pro Firefly" imgURL={rgx_11z_pro_firefly} key={Math.random() * 10000}/>,
+        <SkinElement price={11.99} name="Ion Sheriff" imgURL={sh_ion} key={Math.random() * 10000}/>,
+        <SkinElement price={11.99} name="Prime Vandal" imgURL={v_prime} key={Math.random() * 10000}/>,
+        <SkinElement price={15.99} name="Elderflame Operator" imgURL={op_elderflame} key={Math.random() * 10000}/>,
     ];
     return (
         <div className={s.wrapper}>

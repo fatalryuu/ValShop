@@ -74,3 +74,15 @@
     background: rgb(20, 21, 24);
     box-shadow: 0 0 5px #000000, 0 0 20px #000000, 0 0 40px #000000;
 }
+
+@media screen and (max-width: 1230px) {
+    .text {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text {
+        width: 200px;
+    }
+}
