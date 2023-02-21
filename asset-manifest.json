@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ValShop/static/css/main.8e632ef1.css",
-    "main.js": "/ValShop/static/js/main.703142ec.js",
+    "main.css": "/ValShop/static/css/main.7c0469e0.css",
+    "main.js": "/ValShop/static/js/main.8c90e8b5.js",
     "static/media/v_reaver.png": "/ValShop/static/media/v_reaver.ebd0c317182fae8255d1.png",
     "static/media/rgx_11z_pro_firefly.png": "/ValShop/static/media/rgx_11z_pro_firefly.e00d42a30fac803211e1.png",
     "static/media/v_prime.png": "/ValShop/static/media/v_prime.059bee74c40a56642f61.png",
@@ -11,11 +11,11 @@
     "static/media/p_singularity.png": "/ValShop/static/media/p_singularity.1e5bceff325cccb6b52d.png",
     "static/media/logo.webp": "/ValShop/static/media/logo.2fa30e996fc0b6066ef8.webp",
     "index.html": "/ValShop/index.html",
-    "main.8e632ef1.css.map": "/ValShop/static/css/main.8e632ef1.css.map",
-    "main.703142ec.js.map": "/ValShop/static/js/main.703142ec.js.map"
+    "main.7c0469e0.css.map": "/ValShop/static/css/main.7c0469e0.css.map",
+    "main.8c90e8b5.js.map": "/ValShop/static/js/main.8c90e8b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e632ef1.css",
-    "static/js/main.703142ec.js"
+    "static/css/main.7c0469e0.css",
+    "static/js/main.8c90e8b5.js"
   ]
 }
